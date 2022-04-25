@@ -1,0 +1,31 @@
+[
+  {
+    "sabor": "Açaí",
+    "descricao": "Sorvete de açaí.",
+    "foto": "acai-com-leite-condensado.png",
+    "preco": 10,
+    "createdAt": "2022-04-25T12:48:07.366Z"
+  },
+  {
+    "sabor": "Chocolate Belga",
+    "descricao": "Sorvete Chocolate Belga",
+    "foto": "chocolate-belga.png",
+    "preco": 7.5,
+    "createdAt": "2022-04-23T14:32:45.188Z"
+  },
+  {
+    "sabor": "Chocolate Belga",
+    "descricao": "Sorvete Chocolate Belga.",
+    "foto": "chocolate-belga.png",
+    "preco": 7,
+    "createdAt": "2022-04-25T12:48:07.366Z"
+  },
+  {
+    "sabor": "Coco",
+    "descricao": "Sorvete de coco",
+    "preco": 7.4,
+    "foto": "coco.png",
+    "createdAt": "2022-04-25T12:42:47.271Z",
+    "__v": 0
+  }
+]

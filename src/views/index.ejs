@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title> El Geladon </title>
+</head>
+
+<body>
+  <nav>
+    <img src="/images/logo.svg" class="img-fluid gif" alt="Logo ElGeladon">
+    <ul>
+      <li>
+          <a href="/">Home</a>
+      </li>
+      <li>
+          <a href="/cadastrar" id="menu-cadastrar">Cadastrar</a>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+    <div class="Home">
+
+      <!-- 
+      <div class="Home__header Header">
+        <div class="row">
+          <div class="Header__logo Logo">
+            <img
+              src="/images/logo.svg"
+              width="70px"
+              alt="Logo El Geladon"
+              class="Logo__icone"
+            />
+            <span class="Logo__titulo"> El Geladon </span>
+          </div>
+
+          <div class="Header__opcoes Opcoes">
+            <div class="Opcoes__sacola Sacola">
+              <img
+                src="/images/icons/sacola.svg"
+                width="40px"
+                class="Sacola__icone"
+                alt="Sacola de compras"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      -->
+
+      <!--  PESQUISAR -->
+      <h2>PESQUISAR PALETA</h2>
+      <div class="paleta-escolhida-espaco">
+          <div id="paleta-escolhida-input-espaco">
+              <input type="number" id="idPaleta" placeholder="Digite o ID da paleta e clique em 'Escolher'" />
+              <button id="idPaletaButton" onclick="findPaletaById()">ESCOLHER</button>
+          </div>
+          <div id="paletaEscolhida">
+
+          </div>
+      </div>
+      
+      <!--  CADASTRAR PALETA
+      <section class="button-modal-create">
+        <a href='/paletas/cadastrar/'>
+          <button type="button" class="cadastrar-button">Cadastrar Paleta</button>
+        </a>
+      </section>
+        -->
+
+      <!--  PALETAS -->
+      <h2>PALETAS DiSPONÍVEIS</h2>
+      <div class="Home__container">
+        <div class="PaletaLista" id="paletaList">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script type="text/javascript" src="/js/script.js"></script>
+
+</body>
+</html>
